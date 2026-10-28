@@ -1,6 +1,8 @@
 """Unit and integration tests for wealth advisor multi-agent system."""
 
 import json
+import tempfile
+from pathlib import Path
 import pytest
 from wealth_advisor_agent import (
     CRMTool,
@@ -14,6 +16,12 @@ from wealth_advisor_agent import (
     WealthAdvisorOrchestrator,
     CRM_DATA,
 )
+
+
+@pytest.fixture
+def tmp_path():
+    with tempfile.TemporaryDirectory() as td:
+        yield Path(td)
 
 
 @pytest.fixture
