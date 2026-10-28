@@ -40,12 +40,16 @@ Coordinated by `WealthAdvisorOrchestrator` across three specialized agents and a
 ```bash
 # Optional: virtual environment
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
 
-# Install pytest for tests
-pip install -r requirements.txt
+# Activate venv:
+# Windows (PowerShell): .\venv\Scripts\Activate.ps1
+# Windows (CMD):        venv\Scripts\activate.bat
+# Linux / macOS:        source venv/bin/activate
 
-# Run interactive review (prompts for approval)
+# Install test dependencies (pytest)
+python -m pip install -r requirements.txt
+
+# Run interactive review (prompts for operator approval)
 python wealth_advisor_agent.py
 
 # Run automated review (auto-approves)
@@ -55,5 +59,5 @@ python wealth_advisor_agent.py --auto
 python wealth_advisor_agent.py CLIENT_1002 --auto
 
 # Run tests
-pytest test_wealth_advisor.py -v
+python -m pytest test_wealth_advisor.py -v
 ```
