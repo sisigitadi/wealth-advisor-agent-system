@@ -1,0 +1,22 @@
+# Documents / PDF
+*.pdf
+
+# Auto-generated runtime data
+wealth_advisor_memory.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment
+venv/
+.env
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+desktop.ini
+Thumbs.db

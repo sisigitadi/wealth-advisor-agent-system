@@ -1,0 +1,3 @@
+# Core system uses Python standard library only (no external dependencies).
+# The following is only needed for running the automated test suite:
+pytest>=8.0.0

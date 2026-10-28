@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-10-28T18:52:39.146151+00:00",
+  "client_overview": {
+    "client_id": "CLIENT_1002",
+    "name": "Dewi Lestari",
+    "location": "Surabaya, Indonesia",
+    "risk_tolerance": "Aggressive",
+    "investment_goals": "High Growth Tech & Emerging Markets",
+    "total_aum_usd": 553200.0,
+    "tenure_years": 1
+  },
+  "risk_assessment": {
+    "anomalies": [],
+    "risk_signals": [
+      {
+        "severity": "HIGH",
+        "risk_type": "LIQUIDITY_DEFICIT",
+        "detail": "Cash balance ($8,200.00) is $1,800.00 below target reserve ($10,000.00)."
+      },
+      {
+        "severity": "MEDIUM",
+        "risk_type": "RAPID_CAPITAL_DEPLOYMENT",
+        "detail": "$215,000.00 invested rapidly within short observation window."
+      },
+      {
+        "severity": "MEDIUM",
+        "risk_type": "PORTFOLIO_DRIFT",
+        "detail": "Equity exposure (75.92%) exceeds Aggressive cap (75.0%)."
+      },
+      {
+        "severity": "HIGH",
+        "risk_type": "MARKET_VOLATILITY_AMPLIFIER",
+        "detail": "VIX elevated at 22.8 - market volatility amplifies portfolio risk."
+      }
+    ],
+    "liquidity_status": "DEFICIT",
+    "equity_weight_pct": 75.92
+  },
+  "advisory_recommendations": [
+    {
+      "priority": "HIGH",
+      "category": "Cash Rebalancing",
+      "action": "Restore cash buffer: reallocate fixed income yield or dividends to cover the $10,000.00 target liquidity reserve."
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "Portfolio Realignment",
+      "action": "Rebalance equity holdings down towards the Aggressive target allocation cap."
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "Investment Pacing",
+      "action": "Review recent rapid investment pacing with client to confirm alignment with planned deployment schedule."
+    },
+    {
+      "priority": "HIGH",
+      "category": "Volatility Hedge",
+      "action": "Consider defensive positioning or short-term treasury allocation given elevated market volatility (VIX)."
+    }
+  ],
+  "execution_metadata": {
+    "agents_invoked": [
+      "DataFetcherAgent",
+      "AnalyzerAgent",
+      "AdvisoryAgent"
+    ],
+    "status": "COMPLETED"
+  }
+}

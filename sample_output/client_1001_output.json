@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-10-28T18:52:38.621791+00:00",
+  "client_overview": {
+    "client_id": "CLIENT_1001",
+    "name": "Budi Santoso",
+    "location": "Jakarta, Indonesia",
+    "risk_tolerance": "Moderate",
+    "investment_goals": "Capital Preservation & Long-Term Growth",
+    "total_aum_usd": 553500.0,
+    "tenure_years": 4
+  },
+  "risk_assessment": {
+    "anomalies": [
+      {
+        "tx_id": "TX_903",
+        "date": "2026-10-18",
+        "type": "withdrawal",
+        "amount": 42000.0,
+        "severity": "CRITICAL",
+        "reasons": [
+          "Large uncategorized capital outflow ($42,000.00)"
+        ]
+      }
+    ],
+    "risk_signals": [
+      {
+        "severity": "HIGH",
+        "risk_type": "LIQUIDITY_DEFICIT",
+        "detail": "Cash balance ($18,500.00) is $6,500.00 below target reserve ($25,000.00)."
+      },
+      {
+        "severity": "MEDIUM",
+        "risk_type": "PORTFOLIO_DRIFT",
+        "detail": "Equity exposure (56.01%) exceeds Moderate cap (50.0%)."
+      },
+      {
+        "severity": "HIGH",
+        "risk_type": "MARKET_VOLATILITY_AMPLIFIER",
+        "detail": "VIX elevated at 22.8 - market volatility amplifies portfolio risk."
+      }
+    ],
+    "liquidity_status": "DEFICIT",
+    "equity_weight_pct": 56.01
+  },
+  "advisory_recommendations": [
+    {
+      "priority": "URGENT",
+      "category": "Client Outreach",
+      "action": "Contact Budi Santoso immediately to verify transaction TX_903 ($42,000.00 on 2026-10-18) to rule out unauthorized wire transfer."
+    },
+    {
+      "priority": "HIGH",
+      "category": "Cash Rebalancing",
+      "action": "Restore cash buffer: reallocate fixed income yield or dividends to cover the $25,000.00 target liquidity reserve."
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "Portfolio Realignment",
+      "action": "Rebalance equity holdings down towards the Moderate target allocation cap."
+    },
+    {
+      "priority": "HIGH",
+      "category": "Volatility Hedge",
+      "action": "Consider defensive positioning or short-term treasury allocation given elevated market volatility (VIX)."
+    }
+  ],
+  "execution_metadata": {
+    "agents_invoked": [
+      "DataFetcherAgent",
+      "AnalyzerAgent",
+      "AdvisoryAgent"
+    ],
+    "status": "COMPLETED"
+  }
+}
