@@ -1,0 +1,59 @@
+{
+  "client_id": "CLIENT_1001",
+  "crm_profile": {
+    "name": "Budi Santoso",
+    "location": "Jakarta, Indonesia",
+    "risk_profile": "Moderate",
+    "target_liquidity": 25000.0,
+    "investment_goals": "Capital Preservation & Long-Term Growth",
+    "tenure_years": 4
+  },
+  "portfolio_snapshot": {
+    "cash_balance": 18500.0,
+    "equities_value": 310000.0,
+    "fixed_income_value": 180000.0,
+    "alternative_assets": 45000.0,
+    "total_aum": 553500.0
+  },
+  "recent_transactions": [
+    {
+      "tx_id": "TX_901",
+      "date": "2026-10-01",
+      "type": "dividend",
+      "amount": 1250.0,
+      "category": "Passive Income Dividend"
+    },
+    {
+      "tx_id": "TX_902",
+      "date": "2026-10-10",
+      "type": "investment",
+      "amount": 5000.0,
+      "category": "Fixed Income Treasury"
+    },
+    {
+      "tx_id": "TX_903",
+      "date": "2026-10-18",
+      "type": "withdrawal",
+      "amount": 42000.0,
+      "category": "Uncategorized Wire Transfer"
+    },
+    {
+      "tx_id": "TX_904",
+      "date": "2026-10-24",
+      "type": "fee",
+      "amount": 120.0,
+      "category": "Custodian Account Fee"
+    }
+  ],
+  "market_indicators": {
+    "SP500": {
+      "current": 5890.5,
+      "ytd_return_pct": 12.3
+    },
+    "US10Y_YIELD": 4.35,
+    "VIX": {
+      "current": 22.8,
+      "elevated": true
+    }
+  }
+}

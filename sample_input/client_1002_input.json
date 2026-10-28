@@ -1,0 +1,59 @@
+{
+  "client_id": "CLIENT_1002",
+  "crm_profile": {
+    "name": "Dewi Lestari",
+    "location": "Surabaya, Indonesia",
+    "risk_profile": "Aggressive",
+    "target_liquidity": 10000.0,
+    "investment_goals": "High Growth Tech & Emerging Markets",
+    "tenure_years": 1
+  },
+  "portfolio_snapshot": {
+    "cash_balance": 8200.0,
+    "equities_value": 420000.0,
+    "fixed_income_value": 30000.0,
+    "alternative_assets": 95000.0,
+    "total_aum": 553200.0
+  },
+  "recent_transactions": [
+    {
+      "tx_id": "TX_801",
+      "date": "2026-10-03",
+      "type": "investment",
+      "amount": 75000.0,
+      "category": "Tech ETF"
+    },
+    {
+      "tx_id": "TX_802",
+      "date": "2026-10-05",
+      "type": "investment",
+      "amount": 80000.0,
+      "category": "Global Tech Fund"
+    },
+    {
+      "tx_id": "TX_803",
+      "date": "2026-10-12",
+      "type": "withdrawal",
+      "amount": 3000.0,
+      "category": "Personal Withdrawal"
+    },
+    {
+      "tx_id": "TX_804",
+      "date": "2026-10-20",
+      "type": "investment",
+      "amount": 60000.0,
+      "category": "Bluechip Tech Equity"
+    }
+  ],
+  "market_indicators": {
+    "SP500": {
+      "current": 5890.5,
+      "ytd_return_pct": 12.3
+    },
+    "US10Y_YIELD": 4.35,
+    "VIX": {
+      "current": 22.8,
+      "elevated": true
+    }
+  }
+}

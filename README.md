@@ -61,3 +61,5 @@ python wealth_advisor_agent.py CLIENT_1002 --auto
 # Run tests
 python -m pytest test_wealth_advisor.py -v
 ```
+
+Sample inputs and outputs for `CLIENT_1001` and `CLIENT_1002` are included in `sample_input/` and `sample_output/`.
